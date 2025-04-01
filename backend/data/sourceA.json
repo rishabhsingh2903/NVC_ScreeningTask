@@ -1,0 +1,52 @@
+[
+  {
+    "company": "Toyota",
+    "model": "Corolla",
+    "date": "2023-01-01",
+    "price": 20000
+  },
+  {
+    "company": "Toyota",
+    "model": "Camry",
+    "date": "2023-06-15",
+    "price": 25000
+  },
+  {
+    "company": "Honda",
+    "model": "Civic",
+    "date": "2024-03-20",
+    "price": 21000
+  },
+  {
+    "company": "Honda",
+    "model": "Accord",
+    "date": "2025-05-10",
+    "price": 26000
+  },
+  { "company": "Ford", "model": "Focus", "date": "2023-08-05", "price": 19000 },
+  {
+    "company": "Nissan",
+    "model": "Altima",
+    "date": "2024-07-12",
+    "price": 23000
+  },
+  {
+    "company": "BMW",
+    "model": "3 Series",
+    "date": "2023-04-18",
+    "price": 32000
+  },
+  {
+    "company": "Mercedes",
+    "model": "C-Class",
+    "date": "2024-09-25",
+    "price": 35000
+  },
+  {
+    "company": "Hyundai",
+    "model": "Elantra",
+    "date": "2025-01-02",
+    "price": 18000
+  },
+  { "company": "Kia", "model": "Forte", "date": "2024-11-11", "price": 19500 }
+]
