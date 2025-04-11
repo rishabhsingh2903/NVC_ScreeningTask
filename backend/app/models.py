@@ -12,15 +12,17 @@ class Task(Base):
 
 
 class DataRow(Base):
-    __tablename__ ="data_rows"
-    id = Column(Integer, primary_key=True,index=True)
+    __tablename__ = "data_rows"
+    id = Column(Integer, primary_key=True, index=True)
     task_id = Column(Integer, ForeignKey("tasks.id"))
     source = Column(String)
-    company_name = Column(String)
-    model_name = Column(String)
+
+    company = Column(String)  # ✅ match 'company'
+    model = Column(String)    # ✅ match 'model'
     date = Column(Date)
     price = Column(Float)
 
-    task  = relationship("Task", back_populates="data")
+    task = relationship("Task", back_populates="data")
+
 
     
